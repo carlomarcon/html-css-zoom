@@ -28,7 +28,20 @@ main {
   /* default */
   background-color: red;
   border: 2px solid black;
+  background-image: url(https://picsum.photos/200);
+  background-repeat: no-repeat;
+  background-size: cover;
 
+  position: relative;
   width: calc(100% / 7);
   height: calc(100% / 5);
+}
+
+.user-name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 14px;
+  background-color: rgba(58, 61, 59, 0.5);
+  color: white;
 }
